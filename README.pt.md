@@ -22,6 +22,6 @@ Tecnologias: Python, Selenium, OpenAI API
 
 🌐 valega.dev
 
-📧 [Seu e-mail ou LinkedIn]
+📧 jorge@valega.dev
 
 Obrigado por visitar. Explore os projetos e, se quiser, contribua! 🚀
