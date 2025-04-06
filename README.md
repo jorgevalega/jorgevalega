@@ -22,4 +22,4 @@ Short description...
 
 ## 📬 Contact
 - 🌐 [valega.dev](https://valega.dev)
-- 📧 [jorge@valega.dev]
+- 📧 jorge@valega.dev
