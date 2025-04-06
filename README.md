@@ -6,8 +6,6 @@
 <a href="README.pt.md">🇧🇷 Português</a>
 </h3>
 
-🌍 Available in: [Español](README.es.md) | [Português](README.pt.md)
-
 Welcome! This is my curated collection of development projects, mostly focused on Python automation, desktop apps, and tools.
 
 ## 🚀 Featured Projects
