@@ -1,11 +1,4 @@
 # 🧠 Jorge Valega - Project Portfolio
-
-
-> 📢 **Available in:**  
-> 🇬🇧 English (default)  
-> 🇪🇸 [Español](README.es.md)  
-> 🇧🇷 [Português](README.pt.md)
-
 <h3>
 🌍 Available in: 
 <a href="README.es.md">🇪🇸 Español</a> | 
