@@ -1,6 +1,6 @@
 # 🧠 Jorge Valega - Project Portfolio
 
-<h3 align="right">
+<h3>
 🌍 Available in: 
 <a href="README.es.md">🇪🇸 Español</a> | 
 <a href="README.pt.md">🇧🇷 Português</a>
