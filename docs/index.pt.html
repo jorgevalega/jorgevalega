@@ -3,38 +3,117 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jorge Valega - Portfólio</title>
+  <title>Jorge Valega – Portfólio de Desenvolvedor</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 2rem; background: #f4f4f4; color: #333; }
-    h1 { color: #2c3e50; }
-    .lang-switch { float: right; }
-    .project { margin-bottom: 2rem; }
-    a { color: #2980b9; text-decoration: none; }
+    :root {
+      --primary: #2c3e50;
+      --link: #2980b9;
+      --bg: #f9f9f9;
+      --card-bg: #ffffff;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--primary);
+      padding: 2rem;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+    .lang-switch a {
+      margin-left: 10px;
+      font-size: 1.1rem;
+      text-decoration: none;
+    }
+    h1 {
+      font-size: 2rem;
+      margin: 0;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    .project-card {
+      background: var(--card-bg);
+      padding: 1rem 1.2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.06);
+      transition: transform 0.2s ease;
+    }
+    .project-card:hover {
+      transform: translateY(-4px);
+    }
+    .project-card h2 {
+      margin: 0 0 0.5rem;
+    }
+    .project-card a {
+      color: var(--link);
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      margin-top: 3rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
   </style>
 </head>
 <body>
-  <div class="lang-switch">
-    🌍 Disponível em: 
-    <a href="index.html">English</a> | 
-    <a href="index.es.html">Español</a>
-  </div>
+  <header>
+    <h1>🧠 Jorge Valega – Portfólio de Desenvolvedor</h1>
+    <div class="lang-switch">
+      🌍 Disponível em:
+      <a href="index.html">🇬🇧</a>
+      <a href="index.es.html">🇪🇸</a>
+    </div>
+  </header>
+  <p>Bem-vindo! Esta é uma coleção dos meus projetos pessoais e experimentais, desenvolvidos principalmente em Python, focados em automação, aplicativos desktop e ferramentas úteis.</p>
+  <section class="projects">
+    
+    <div class="project-card">
+      <h2>🔤 <a href="https://github.com/jorgevalega/text-to-ipa-converter">Conversor de Texto para IPA</a></h2>
+      <p>Converte texto em inglês para o Alfabeto Fonético Internacional (IPA) e permite ouvir a pronúncia.</p>
+      <p><strong>Tech:</strong> Python, CustomTkinter, eng-to-ipa, pyttsx3</p>
+    </div>
 
-  <h1>🧠 Jorge Valega – Portfólio de Projetos</h1>
-  <p>Bem-vindo! Este é o meu portfólio de desenvolvimento, com uma seleção de projetos pessoais e experimentais, principalmente desenvolvidos em Python, focando em automação, apps desktop e ferramentas úteis.</p>
+    <div class="project-card">
+      <h2>🤖 <a href="https://github.com/jorgevalega/auto-form-filler">Bot Preenchedor de Formulários</a></h2>
+      <p>Automatiza o preenchimento de formulários da web usando Python e automação de navegador.</p>
+      <p><strong>Tech:</strong> Python, Selenium</p>
+    </div>
 
-  <div class="project">
-    <h2>🔤 <a href="https://github.com/jorgevalega/text-to-ipa-converter">Conversor de Texto para IPA</a></h2>
-    <p>Converte texto em inglês para o Alfabeto Fonético Internacional (IPA) e permite ouvir a pronúncia.</p>
-    <p><strong>Tecnologias:</strong> Python, CustomTkinter, eng-to-ipa, pyttsx3</p>
-  </div>
+    <div class="project-card">
+      <h2>📊 <a href="https://github.com/jorgevalega/csv-analyzer">Analisador de CSV</a></h2>
+      <p>Lê e analisa arquivos CSV com resumos e gráficos.</p>
+      <p><strong>Tech:</strong> Python, Pandas, Matplotlib</p>
+    </div>
 
-  <div class="project">
-    <h2>🤖 <a href="https://github.com/jorgevalega/your-next-project">Seu Próximo Projeto</a></h2>
-    <p>Breve descrição...</p>
-    <p><strong>Tecnologias:</strong> Python, Selenium, OpenAI API</p>
-  </div>
+    <div class="project-card">
+      <h2>🗣️ <a href="https://github.com/jorgevalega/speech-to-text-app">App de Voz para Texto</a></h2>
+      <p>Converte sua voz em texto escrito usando ferramentas offline.</p>
+      <p><strong>Tech:</strong> Python, SpeechRecognition</p>
+    </div>
 
-  <hr />
-  <p>📬 Contato: <a href="https://valega.dev">valega.dev</a></p>
+    <div class="project-card">
+      <h2>🧾 <a href="https://github.com/jorgevalega/pdf-from-excel">Gerador de PDFs via Excel</a></h2>
+      <p>Gera PDFs personalizados com base em dados de planilhas.</p>
+      <p><strong>Tech:</strong> Python, ReportLab, OpenPyXL</p>
+    </div>
+
+    <div class="project-card">
+      <h2>🌐 <a href="https://github.com/jorgevalega/web-scraper-tool">Ferramenta de Scraping Web</a></h2>
+      <p>Extrai informações de sites automaticamente.</p>
+      <p><strong>Tech:</strong> Python, BeautifulSoup, Requests</p>
+    </div>
+
+  </section>
+  <footer>
+    📬 Contact: <a href="https://valega.dev">valega.dev</a>
+  </footer>
 </body>
 </html>
