@@ -1,27 +1,22 @@
-🧠 Jorge Valega - Portfólio de Projetos
+# Jorge Valega
 
-🌍 Disponível em: English | Español
+Desenvolvedor Python especializado em automações, scraping, bots e soluções com dados.  
+Fundador do [Valega.dev](https://valega.dev) – Soluções personalizadas com Python.
 
-Bem-vindo! Este é o meu portfólio de desenvolvimento, com uma seleção de projetos pessoais e experimentais, principalmente desenvolvidos em Python, focando em automação, apps desktop e ferramentas úteis.
+## 🚀 Especialidades
 
-🚀 Projetos em Destaque
+- Ferramentas de automação em Python
+- Scraping com tratamento de erros e agendamento
+- Bots personalizados (Telegram, WhatsApp)
+- Assistente IA para CSV/Excel
+- Integrações com WordPress
 
-🔤 Conversor de Texto para IPA
+## 👤 Sobre
 
-Converte texto em inglês para o Alfabeto Fonético Internacional (IPA) e permite ouvir a pronúncia.
+🇦🇷 Argentino vivendo no Brasil (Blumenau)  
+💼 Dev freelance | Especialista WordPress | Tradutor (PT<>ES)  
+📫 [valega.dev](https://valega.dev) | [LinkedIn](https://www.linkedin.com/in/jorgevalega/)
 
-Tecnologias: Python, CustomTkinter, eng-to-ipa, pyttsx3
+---
 
-🤖 Seu Próximo Projeto
-
-Breve descrição...
-
-Tecnologias: Python, Selenium, OpenAI API
-
-📬 Contato
-
-🌐 valega.dev
-
-📧 jorge@valega.dev
-
-Obrigado por visitar. Explore os projetos e, se quiser, contribua! 🚀
+🌐 Idioma: [🇪🇸 Español](./README.es.md) | [🇺🇸 English](./README.md)
