@@ -1,28 +1,117 @@
-# 🧠 Jorge Valega - Project Portfolio
-<h3>
-🌍 Available in: 
-<a href="README.es.md">🇪🇸 Español</a> | 
-<a href="README.pt.md">🇧🇷 Português</a>
-</h3>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jorge Valega – Developer Portfolio</title>
+  <style>
+    :root {
+      --primary: #2c3e50;
+      --link: #2980b9;
+      --bg: #f9f9f9;
+      --card-bg: #ffffff;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--primary);
+      padding: 2rem;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+    .lang-switch a {
+      margin-left: 10px;
+      font-size: 1.1rem;
+      text-decoration: none;
+    }
+    h1 {
+      font-size: 2rem;
+      margin: 0;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    .project-card {
+      background: var(--card-bg);
+      padding: 1rem 1.2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.06);
+      transition: transform 0.2s ease;
+    }
+    .project-card:hover {
+      transform: translateY(-4px);
+    }
+    .project-card h2 {
+      margin: 0 0 0.5rem;
+    }
+    .project-card a {
+      color: var(--link);
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      margin-top: 3rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🧠 Jorge Valega – Developer Portfolio</h1>
+    <div class="lang-switch">
+      🌍 Available in:
+      <a href="index.es.html">🇪🇸 Español</a> | 
+      <a href="index.pt.html">🇧🇷 Português</a>
+    </div>
+  </header>
+  <p>Welcome! This is a collection of my personal and experimental projects built mostly with Python, focused on automation, desktop apps, and tools to make life easier.</p>
+  <section class="projects">
+    
+    <div class="project-card">
+      <h2>🔤 <a href="https://github.com/jorgevalega/text-to-ipa-converter">Text to IPA Converter</a></h2>
+      <p>Converts English text to the International Phonetic Alphabet (IPA) and allows listening to pronunciation.</p>
+      <p><strong>Tech:</strong> Python, CustomTkinter, eng-to-ipa, pyttsx3</p>
+    </div>
 
-Welcome! This is my curated collection of development projects, mostly focused on Python automation, desktop apps, and tools.
+    <div class="project-card">
+      <h2>🤖 <a href="https://github.com/jorgevalega/auto-form-filler">Auto Form Filler Bot</a></h2>
+      <p>Automates filling of web forms using Python and browser automation.</p>
+      <p><strong>Tech:</strong> Python, Selenium</p>
+    </div>
 
-## 🚀 Featured Projects
+    <div class="project-card">
+      <h2>📊 <a href="https://github.com/jorgevalega/csv-analyzer">CSV Analyzer</a></h2>
+      <p>Reads and analyzes CSV files with summaries and charts.</p>
+      <p><strong>Tech:</strong> Python, Pandas, Matplotlib</p>
+    </div>
 
-### 🔤 [Text to IPA Converter](https://github.com/jorgevalega/text-to-ipa-converter)
-Converts English text into the International Phonetic Alphabet (IPA) and allows users to listen to the pronunciation.
+    <div class="project-card">
+      <h2>🗣️ <a href="https://github.com/jorgevalega/speech-to-text-app">Speech to Text Desktop App</a></h2>
+      <p>Converts your voice into written text using offline tools.</p>
+      <p><strong>Tech:</strong> Python, SpeechRecognition</p>
+    </div>
 
-**Tech:** Python, CustomTkinter, eng-to-ipa, pyttsx3
+    <div class="project-card">
+      <h2>🧾 <a href="https://github.com/jorgevalega/pdf-from-excel">PDF Generator from Excel</a></h2>
+      <p>Creates personalized PDFs from spreadsheet data.</p>
+      <p><strong>Tech:</strong> Python, ReportLab, OpenPyXL</p>
+    </div>
 
----
+    <div class="project-card">
+      <h2>🌐 <a href="https://github.com/jorgevalega/web-scraper-tool">Website Scraper Tool</a></h2>
+      <p>Extracts information from websites automatically.</p>
+      <p><strong>Tech:</strong> Python, BeautifulSoup, Requests</p>
+    </div>
 
-### 🤖 [Your Next Project](https://github.com/jorgevalega/your-next-project)
-Short description...
-
-**Tech:** Python, Selenium, OpenAI API
-
----
-
-## 📬 Contact
-- 🌐 [valega.dev](https://valega.dev)
-- 📧 jorge@valega.dev
+  </section>
+  <footer>
+    📬 Contact: <a href="https://valega.dev">valega.dev</a>
+    📧 jorge@valega.dev
