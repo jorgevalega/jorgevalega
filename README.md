@@ -14,7 +14,7 @@ Founder of [Valega.dev](https://valega.dev) – Custom Python solutions.
 ## 👤 About Me
 
 🇦🇷 Argentine living in Brazil (Blumenau)  
-💼 Freelance developer | WordPress expert | Translator (ES<>PT)  
+💼 Freelance developer | WordPress expert | Translator (PT<>ES)  
 📫 [valega.dev](https://valega.dev) | [LinkedIn](https://www.linkedin.com/in/jorgevalega/)
 
 ---
