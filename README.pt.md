@@ -1,7 +1,6 @@
 # Jorge Valega
 
 Desenvolvedor Python especializado em automações, scraping, bots e soluções com dados.  
-Fundador do [Valega.dev](https://valega.dev) – Soluções personalizadas com Python.
 
 ## 🚀 Especialidades
 
@@ -15,7 +14,7 @@ Fundador do [Valega.dev](https://valega.dev) – Soluções personalizadas com P
 
 🇦🇷 Argentino vivendo no Brasil (Blumenau)  
 💼 Dev freelance | Especialista WordPress | Tradutor (PT<>ES)  
-📫 [valega.dev](https://valega.dev) | [LinkedIn](https://www.linkedin.com/in/jorgevalega/)
+📫 [LinkedIn](https://www.linkedin.com/in/jorgevalega/)
 
 ---
 
