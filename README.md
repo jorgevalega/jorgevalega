@@ -1,7 +1,6 @@
 # Jorge Valega
 
 Python developer focused on automation, scraping, bots, and data-driven solutions.  
-Founder of [Valega.dev](https://valega.dev) – Custom Python solutions.
 
 ## 🚀 Highlights
 
@@ -15,7 +14,7 @@ Founder of [Valega.dev](https://valega.dev) – Custom Python solutions.
 
 🇦🇷 Argentine living in Brazil (Blumenau)  
 💼 Freelance developer | WordPress expert | Translator (PT<>ES)  
-📫 [valega.dev](https://valega.dev) | [LinkedIn](https://www.linkedin.com/in/jorgevalega/)
+📫 [LinkedIn](https://www.linkedin.com/in/jorgevalega/)
 
 ---
 
